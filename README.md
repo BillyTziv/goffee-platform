@@ -15,7 +15,10 @@ Each coffee shop has its own list of orders.
 ![image](https://github.com/BillyTziv/Goffee/blob/master/Screenshots/order-list.PNG)
 
 In each order row more defails can be found after a click on the row
-![image] (https://github.com/BillyTziv/Goffee/blob/master/Screenshots/row-details.PNG)
+![image](https://github.com/BillyTziv/Goffee/blob/master/Screenshots/row-details.PNG)
+
+# Licence
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 # Contact
 For any questions or interest for cooperation please drop me an email and I will get back to you asap. My email is vtzivaras[at]gmail[dot]com. You can also find more contact details in my website http://vasilistzivaras.gr
