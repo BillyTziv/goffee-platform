@@ -1,0 +1,5 @@
+Instructions
+
+1. Import the SQL file to the database.
+2. Place the grabber.php in the www folder of your webserver
+3. Unzip the goffee.zip file in the www folder.
