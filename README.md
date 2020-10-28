@@ -22,3 +22,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 # Contact
 For any questions or interest for cooperation please drop me an email and I will get back to you asap. My email is vtzivaras[at]gmail[dot]com. You can also find more contact details in my website http://vasilistzivaras.gr
+
+--
