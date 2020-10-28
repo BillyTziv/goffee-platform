@@ -1,0 +1,246 @@
+/*======================================
+				BASIC
+======================================*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/newbg.gif');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Top debug bar  - usually it should be hidden and never shown */
+#debug_monitor {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    position: sticky;
+
+    color: #D9D9D9;
+    background: #2F71A8;
+    text-align: center;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+
+/* Logo bar and login box menu */
+#logo_bar_outter {
+	width: 100%;
+	height: 50px;
+    line-height: 50px;
+
+    background:rgba(255,255,255,0.15);
+}
+
+#logo_bar_inner {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 16px;
+    color: white;
+    font-family: Tahoma;
+}
+
+/* Logo Box at the top bar */
+#menuLogoBox {
+    float: left;
+}
+
+#menuLogoBox img {
+    vertical-align: middle;
+}
+/* Login text with button at the top bar */
+#menuLoginBox {
+    float: right;
+}
+
+#menuLoginBox table {
+    
+}
+
+#menuLoginBox button {
+    vertical-align: middle;
+
+}
+
+#logo_bar_logout_button {
+    background: #c8341e;
+    transition: 0.4s ease;
+    border: #c8341e solid 1px;
+    color: #eaeaea;
+    border-radius: 3px;
+    margin-left: 15px;
+    height: 35px;
+    line-height: 35px;
+}
+
+#logo_bar_logout_button:hover {
+    transition: 0.4s ease;
+    color: white;
+    border: white solid 1px;
+    cursor: pointer;
+}
+
+/*
+#topQuickMenuOuter {
+    width: 250px;
+    margin: 0px auto 0px auto;
+
+}
+
+#topQuickMenuInner button {
+    transition: transform .2s;
+}
+#topQuickMenuInner button:hover {
+    transform: scale(1.5);
+}
+
+
+
+.topQuickBlock {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#addButton {
+    background: none;
+    background-image: url('../images/addTicket.png');
+    background-size: cover;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+
+#statisticsButton {
+    background: none;
+    background-image: url('../images/statistics.png');
+    background-size: cover;
+    background-position: center center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+
+#login_bar {
+	background: red;
+	height: 20px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+#loginbar_profile {
+    width: 350px;
+    height: 35px;
+    float: left;
+}
+
+#pageTitle {
+    height: 32px;
+    padding-top: 8px;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+#pageTitleInner {
+    background: #054866;
+    width: 220px;
+    height: 32px;
+    padding-top: 8px;
+    margin-top: -8px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway', serif;
+    color: white;
+    float: right;
+    border-radius: 0 0 10px 10px;
+
+}*/
+
+/* Footer */
+/*
+#footer_outter {
+    background: linear-gradient(#e5e5e5, #cccccc);
+    
+    border-top: solid #b2b2b2 1px;
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    border-top: solid darkgrey 2px;
+}
+s
+#footer_inner {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', serif;
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+*/
+
+/* Vertical menu */
+/*
+.topVerticalMenuRow {
+width: 150px;
+height: 42px;
+float: right;
+padding-top: 5px;
+background: purple;
+}
+
+.topVerticalMenuRow a {
+color: white;
+font-size: 18px;
+text-decoration: none;
+font-weight: bold;
+font-family: Arial;
+}
+
+.topVerticalMenuRow a:hover {
+color: #76D300;
+}
+
+
+.topVerticalMenuRow p {
+padding-top: 5px;
+}
+
+.topVerticalMenuElement {
+height: 32px;
+float: right;
+width: 50px;
+padding-top: 0px;
+margin-bottom: 10px;
+}
+*/
+
+/* Footer */
+#footer_outter {
+    background: linear-gradient(#272822, #585955);
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+#footer_inner {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Raleway', serif;
+    
+}

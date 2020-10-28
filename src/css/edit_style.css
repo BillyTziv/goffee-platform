@@ -1,0 +1,406 @@
+/*======================================
+				BASIC
+======================================*/
+
+body {
+	background-color: #D1E2ED;
+	margin-top: 0px;
+}
+
+#header{
+	height: 170px;
+	width: 100%;
+	border-radius: 5px;
+	background: #DBD1C8;
+}
+
+#main {
+	border-radius:10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#footer {
+	height: 35px;
+	width: 100%;
+	background-color: #343643;
+	border-radius: 5px;
+	color: white;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*======================================
+				HEADER
+======================================*/
+
+#header_top {
+	background-color: #343643;
+	height: 120px;
+	border-radius: 5px;
+	color: white;
+}
+
+#header_left {
+	height: 105px;
+	width: 500px;
+	float: left; 
+	font-size: 30px;
+	text-align: center;
+	font-family: Georgia;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-left: 25px;
+}
+
+#header_right {
+	height: 100px;
+	width: 350px;
+	float: right; 
+	font-size: 14px;
+	font-family: 'Consolas';
+	padding-top: 0px;
+	padding-left: 10px;
+	margin-top: 8px;
+	margin-right: 25px;
+	color: white;
+	font-size: 16px;
+}
+
+#header_right_name {
+	color: #D17A08;
+	font-weight: bold;
+
+}
+
+#header_right_info {
+	color: white;
+	font-size: 16px;
+}
+
+#header_right a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header_right a:hover{
+	color: #D17A08;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header_menu {
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #343643;
+	border-radius: 5px;
+}
+
+/*======================================
+				MENU
+======================================*/
+
+#menu_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_item {
+	display: inline-block;
+	padding: 5px 0px 4px 5px;
+}
+
+.menu_link {
+	width: 120px;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
+	padding: 4px 4px 4px 4px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: F4F2EC;
+}
+
+.menu_link:hover {
+	width: 120px;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
+	padding: 4px 4px 4px 4px;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: F4F2EC;
+}
+
+/*======================================
+				LINKS
+======================================*/
+
+a {
+	color: #E6D3D3;
+}
+
+a:hover {
+	color: red;
+}
+
+/*======================================
+		TABLES IN EDIT FILE
+======================================*/
+/****************************************************/
+/* Πρώτος πίνακας με τα δεδομένα στο αρχείο add.php */
+
+#add_table1 {
+	padding: 15px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_table1 th {
+	width: 250px;
+	text-align: right;
+}
+
+#add_table1 td {
+	width: 300px;
+	text-align: right;
+}
+
+#add_table1 input {
+	width: 250px;
+}
+
+#add_table1 select {
+	width: 250px;
+}
+/****************************************************/
+
+/****************************************************/
+/* Δεύτερος πίνακας με τα δεδομένα στο αρχείο add.php */
+#add_table2 {
+	padding: 15px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_table2 th {
+	width: 250px;
+	text-align: right;
+}
+
+/*
+	Υπάρχει μια μικρή διαφορά με τα άλλα
+	για εμφανίζεται και κείμενο
+*/
+#add_table2 td {
+	width: 250px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+#add_table2 input {
+	width: 250px;
+}
+
+#add_table2 select {
+	width: 250px;
+}
+/****************************************************/
+
+/****************************************************/
+/* Τρίτος πίνακας με τα δεδομένα στο αρχείο add.php */
+/*
+	Υπάρχει μια μικρή διαφορά με τα άλλα
+	για εμφανίζεται και κείμενο
+*/
+#add_table3 {
+	padding: 15px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_table3 th {
+	width: 250px;
+	text-align: right;
+}
+
+#add_table3 td {
+	width: 280px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+#add_table3 input {
+	width: 250px;
+}
+
+#add_table3 select {
+	width: 250px;
+}
+/****************************************************/
+
+/****************************************************/
+/* Τέταρτος πίνακας με τα δεδομένα στο αρχείο add.php */
+#add_table4 {
+	padding: 15px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_table4 th {
+	width: 250px;
+	text-align: right;
+}
+
+#add_table4 td {
+	width: 300px;
+	text-align: right;
+}
+
+#add_table4 input {
+	width: 250px;
+}
+
+#add_table4 select {
+	width: 250px;
+}
+/****************************************************/
+
+/****************************************************/
+/* Πέμπτος πίνακας με τα δεδομένα στο αρχείο add.php */
+#add_table5 {
+	padding: 15px 0px 0px 0px;
+	font-family: "Consolas";
+}
+
+#add_table5 th {
+	width: 250px;
+	text-align: center;
+}
+
+#add_table5 textarea {
+	resize: vertical;
+	height: 200px;
+	width: 350px;
+}
+
+/****************************************************/
+
+/****************************************************/
+/* Έκτος πίνακας με τα δεδομένα στο αρχείο add.php */
+#add_table6 {
+	padding: 15px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_table6 th {
+	width: 350px;
+	text-align: right;
+}
+
+#add_table6 td {
+	width: 100px;
+	text-align: right;
+}
+/****************************************************/
+
+/* Τελική υποβολή βλάβης */
+#add_last_submit {
+	padding: 20px 0px 0px 35px;
+	font-family: "Consolas";
+}
+
+#add_last_submit input {
+	height: 30px;
+	width: 100px;
+}
+
+/*======================================
+					OTHER
+======================================*/
+
+/* Κεντρικός Τίτλος */
+#edit_title {
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 8px;
+	text-transform: uppercase;
+	background-color: #343643;
+	color: white;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+
+/* Το μπεζ κουτί με τα περιεχόμενά του */
+#edit_box {
+	width: 800px;
+	background-color: #DBD1C8;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 15px #343643;
+	font-family: 'Consolas';
+}
+
+/* Δεύτερος τιτλος - [Επεξεργασία στοιχείων] */
+#add_step_title {
+	background-color: #343643;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 25px;
+	border-radius: 5px;
+	height: 30px;
+	padding-top: 5px;	
+	color: white;
+}
+
+#step2_data {
+	padding-left: 40px;
+}
+
+#edit_main_inside {
+	margin: auto;
+	width: 840px;
+}
+
+#edit_table_part1 th {
+	text-align: right;
+	width: 250px;
+}
+
+#edit_table_part1 td {
+	text-align: left;
+	padding-left: 50px;
+}
+
+/* version */
+#version {
+	font-family: 'Consolas';
+	font-weight: bold;
+	font-size: 20px;
+	color: #D17A08;
+	padding-top: 55px;
+	padding-left: 15px;
+}

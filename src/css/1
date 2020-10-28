@@ -1,0 +1,207 @@
+/*======================================
+				BASIC
+======================================*/
+
+/* Login page CSS */
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+	font-family: 'Raleway', serif;
+
+	background-image: url('../images/background-pattern.jpg');
+	background-image: url('../images/test-bg.png');
+	background-image: url('../images/coverimage.jpg');
+        background-size: cover;
+}
+
+/* Vertical menu */
+#topVerticalMenu {
+width: 50%;
+height: 100px;
+float: left;
+}
+
+
+.topVerticalMenuRow {
+width: 150px;
+height: 42px;
+float: right;
+padding-top: 5px;
+}
+
+.topVerticalMenuRow a {
+color: white;
+font-size: 18px;
+text-decoration: none;
+font-weight: bold;
+font-family: Arial;
+}
+
+.topVerticalMenuRow a:hover {
+color: #76D300;
+}
+
+
+.topVerticalMenuRow p {
+padding-top: 5px;
+}
+
+.topVerticalMenuElement {
+height: 32px;
+float: right;
+width: 50px;
+padding-top: 0px;
+margin-bottom: 10px;
+}
+
+#topQuickMenu {
+	width: 100%;
+	height: 25px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	background-color: rgba(30, 30, 30, 0.72);
+	position: fixed;
+}
+
+#topQuickMenuOuter {
+width: 1000px;
+margin: 0px auto 0px auto;
+}
+
+#topQuickMenuInner {
+	width: 50%;
+float: left;
+}
+
+
+.topQuickBlock {
+width: 35px;
+height: 35px;
+display: inline-block;
+margin-right: 25px;
+}
+
+.quickMenuAdd {
+	background-image: url('../images/addTicket.png');
+	background-size: cover;
+	background-position: center center;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+ 	display:block;
+}
+
+.quickMenuAdd:hover {
+	/*background-image: url('../images/addTicket-hover.png');*/
+}
+
+.quickMenuView {
+        background-image: url('../images/view.png');
+        background-size: cover;
+        background-position: center center;
+        width: 37px;
+        height: 37px;
+        margin-bottom: 10px;
+	display: block;
+}
+
+.quickMenuReport {
+        background-image: url('../images/statistics.png');
+        background-size: cover;
+        background-position: center center;
+        width: 34px;
+        height: 34px;
+        margin-bottom: 10px;
+        display:block;
+}
+
+#main {
+	height:700px;
+	width: 1100px;
+	margin: 0px auto 0px auto;
+	padding-top: 80px;
+	color: white;
+}
+
+#login_bar {
+	background: #0B729E;
+	height: 20px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+#loginbar_profile {
+    width: 350px;
+    height: 35px;
+    float: left;
+}
+
+#loginbar_logout {
+    width: 80px;
+    height: 35px;
+    float: right;
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    font-family: 'Raleway', serif;
+}
+
+#login_bar_inside {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+#login_bar_name {
+        font-size: 14px;
+    font-family: 'Raleway', serif;
+    color: white;
+}
+
+#pageTitle {
+    height: 32px;
+    padding-top: 8px;
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+#pageTitleInner {
+    background: #054866;
+    width: 220px;
+    height: 32px;
+    padding-top: 8px;
+    margin-top: -8px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Raleway', serif;
+    color: white;
+    float: right;
+    border-radius: 0 0 10px 10px;
+
+}
+.container {
+    margin: 0px auto 0px auto;
+    width: 900px;
+}
+
+/* Footer */
+#footerbar {
+    background: #0B729E;
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+}
+
+#footerbarInner {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', serif;
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
