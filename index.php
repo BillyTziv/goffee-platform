@@ -4,7 +4,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<title>GoFFEE</title>
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<link rel="shortcut icon" type="image/png" href="src/images/favicon.png"/>
 	<script>
 		$(document).ready(function(){
 			//$('#register-form-link').removeClass('active');
@@ -46,7 +46,7 @@
 	      	  background: none;
 		    background-size: cover;
 		    background-position: center center;
-	      	background-image: url('images/loginBackground.jpeg');
+	      	background-image: url('src/images/loginBackground.jpeg');
 	      	//-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
     		//filter: blur(5px);
 		}
@@ -191,7 +191,7 @@
 <body onLoad="pageLoadFunc()">
 	<div id="main">
 		<div id="logo_box">
-			<img src="images/logo.png" width="450px"/>
+			<img src="src/images/logo.png" width="450px"/>
 		</div>
 		<div class="container">
 	    	<div class="row">
@@ -200,11 +200,11 @@
 						<div class="panel-heading">
 							<div class="row">
 								<div class="col-xs-6">
-									<img src="images/shoplogin.png" height="64px"/></br>
+									<img src="src/images/shoplogin.png" height="64px"/></br>
 									<a href="#" class="active" id="login-form-link">Ιδιοκτήτης Καταστήματος</a>
 								</div>
 								<div class="col-xs-6">
-									<img src="images/userlogin.png" height="64px"/></br>
+									<img src="src/images/userlogin.png" height="64px"/></br>
 									<a href="#" class="active" id="register-form-link">Χρήστης Υπηρεσίας</a>
 								</div>
 							</div>
@@ -213,7 +213,7 @@
 						<div class="panel-body">
 							<div class="row">
 								<div class="col-lg-12">
-									<form id="login-form" action="authenticateShop.php" method="post" role="form" style="display: block;">
+									<form id="login-form" action="src/authenticateShop.php" method="post" role="form" style="display: block;">
 										<div class="form-group">
 											<input type="text" name="shopID" id="shopID" tabindex="1" class="form-control" placeholder="Αριθμός Καταστήματος" value="325212" autofocus>
 										</div>
@@ -252,7 +252,7 @@
 									</form>
 
 									<!-- User Login PArt -->
-									<form id="register-form" action="authenticateUser.php" method="post" role="form" style="display: none;">
+									<form id="register-form" action="src/authenticateUser.php" method="post" role="form" style="display: none;">
 										<div class="form-group">
 											<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Όνομα Χρήστη" value="tester">
 										</div>
